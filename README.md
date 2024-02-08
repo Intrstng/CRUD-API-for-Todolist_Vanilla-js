@@ -1,12 +1,16 @@
 ### Start app
 node index.js
 
-**GET
-http://localhost:5000/api/todos
-http://localhost:5000/api/todos/2
+**GET**
 
-**POST
-http://localhost:5000/api/todos
+``http://localhost:5000/api/todos``
+
+
+``http://localhost:5000/api/todos/2``
+
+**POST**
+
+``http://localhost:5000/api/todos``
 
 _body:_
 ```sh
@@ -16,8 +20,10 @@ _body:_
 }
 ```
 
-**POST - changes status of completed property of ToDo
-http://localhost:5000/api/todos/3
+**POST** - changes status of completed property of ToDo
 
-**DELETE
-http://localhost:5000/api/todos/3
+``http://localhost:5000/api/todos/3``
+
+**DELETE**
+
+``http://localhost:5000/api/todos/3``
