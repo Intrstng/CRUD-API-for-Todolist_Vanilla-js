@@ -1,15 +1,17 @@
-## Simple CRUD API wriiten on Vanilla js for Todolist app
-### Start app
+## Simple CRUD API written on Vanilla js for Todolist app
+### Start server
 node index.js
 
-**GET**
+**Use Postman with:**
+
+***GET***
 
 ``http://localhost:5000/api/todos``
 
 
 ``http://localhost:5000/api/todos/2``
 
-**POST**
+***POST***
 
 ``http://localhost:5000/api/todos``
 
@@ -21,10 +23,10 @@ _body:_
 }
 ```
 
-**PATCH** - changes status of completed property of ToDo (**set true**)
+***PATCH*** - changes status of completed property of ToDo (**set true**)
 
 ``http://localhost:5000/api/todos/3``
 
-**DELETE**
+***DELETE***
 
 ``http://localhost:5000/api/todos/3``
