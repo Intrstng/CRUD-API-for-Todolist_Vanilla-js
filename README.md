@@ -1,3 +1,4 @@
+## Simple CRUD API wriiten on Vanilla js for Todolist app
 ### Start app
 node index.js
 
@@ -20,7 +21,7 @@ _body:_
 }
 ```
 
-**POST** - changes status of completed property of ToDo
+**PATCH** - changes status of completed property of ToDo (**set true**)
 
 ``http://localhost:5000/api/todos/3``
 
